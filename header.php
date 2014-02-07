@@ -74,7 +74,7 @@ include "inc/settings.php";
 			wp_nav_menu($args)			
 		    ?>
 		    <div class="user">
-		    	<a class="logout" href="?logout=true">
+		    	<a class="logout" href="<?php echo get_bloginfo('wpurl') ?>?logout=true">
 		    		 <img src="<?php echo get_stylesheet_directory_uri() ?>/img/power.png" alt='logout' /> <span>logout</span>
 		    	</a>
 		    </div>
