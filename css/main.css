@@ -969,6 +969,7 @@ h1.title {
   position: relative;
   background-color: #455870;
   position: fixed;
+  left: 0;
   top: 0;
   width: 100%;
   z-index: 999;
@@ -986,9 +987,6 @@ h1.title {
     vertical-align: middle;
     position: relative;
     top: 0;
-  }
-  #header .user .logout span {
-    display: none;
   }
   #header .user img {
     width: 16px;
