@@ -710,6 +710,30 @@ h1 {
   border: 4px double;
   border-radius: 0.5em;
 }
+.dropdown-content .no-style img,
+.content .no-style img,
+.dropdown-content .no-style,
+.content .no-style {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.dropdown-content img,
+.content img {
+  border: 7px solid beige;
+  border-radius: 3px;
+  box-shadow: 2px 2px 9px -4px #000000;
+}
+.dropdown-content:nth-of-type(odd) img,
+.content:nth-of-type(odd) img,
+.dropdown-content img,
+.content img {
+  -webkit-transform: rotate(1deg) translateZ(0);
+  -moz-transform: rotate(1deg) translateZ(0);
+  -o-transform: rotate(1deg) translateZ(0);
+  -ms-transform: rotate(1deg) translateZ(0);
+  transform: rotate(1deg) translateZ(0);
+}
 .dropdown-content a:nth-of-type(odd) img,
 .dropdown-content img {
   -webkit-transform: rotate(-1deg) translateZ(0);
@@ -717,19 +741,6 @@ h1 {
   -o-transform: rotate(-1deg) translateZ(0);
   -ms-transform: rotate(-1deg) translateZ(0);
   transform: rotate(-1deg) translateZ(0);
-}
-.dropdown-content img {
-  border: 7px solid beige;
-  border-radius: 3px;
-  box-shadow: 2px 2px 9px -4px #000000;
-}
-.dropdown-content:nth-of-type(odd) img,
-.dropdown-content img {
-  -webkit-transform: rotate(1deg) translateZ(0);
-  -moz-transform: rotate(1deg) translateZ(0);
-  -o-transform: rotate(1deg) translateZ(0);
-  -ms-transform: rotate(1deg) translateZ(0);
-  transform: rotate(1deg) translateZ(0);
 }
 .dropdown {
   padding: 1rem;

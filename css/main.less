@@ -107,16 +107,14 @@ h1 {font-size:3em;}
   border-radius: 0.5em;
 }
 
-.dropdown-content {
-  a:nth-of-type(odd) img, img{
-      -webkit-transform: rotate(-1deg) translateZ(0);
-      -moz-transform: rotate(-1deg) translateZ(0);
-      -o-transform: rotate(-1deg) translateZ(0);
-      -ms-transform: rotate(-1deg) translateZ(0);
-      transform: rotate(-1deg) translateZ(0);
-  }
+.dropdown-content, .content {
   
-  img {
+  .no-style img, .no-style {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+    img {
     border: 7px solid beige;
     border-radius: 3px;
     box-shadow: 2px 2px 9px -4px black;
@@ -127,7 +125,19 @@ h1 {font-size:3em;}
     -o-transform: rotate(1deg) translateZ(0);
     -ms-transform: rotate(1deg) translateZ(0);
     transform: rotate(1deg) translateZ(0);
-   }      
+   }    
+}
+
+
+
+.dropdown-content {
+  a:nth-of-type(odd) img, img{
+      -webkit-transform: rotate(-1deg) translateZ(0);
+      -moz-transform: rotate(-1deg) translateZ(0);
+      -o-transform: rotate(-1deg) translateZ(0);
+      -ms-transform: rotate(-1deg) translateZ(0);
+      transform: rotate(-1deg) translateZ(0);
+  }  
 }
 
 
