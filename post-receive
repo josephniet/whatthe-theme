@@ -1,0 +1,2 @@
+#!/bin/sh
+GIT_WORK_TREE=/var/www/vhosts/thecreativecorporation.net/httpdocs/temp/w/ git checkout -f

@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'solomon_black_decoregular';
+    src: url('solomon_black_deco-webfont.eot');
+    src: url('solomon_black_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_black_deco-webfont.woff') format('woff'),
+         url('solomon_black_deco-webfont.ttf') format('truetype'),
+         url('solomon_black_deco-webfont.svg#solomon_black_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_blackregular';
+    src: url('solomon_black-webfont.eot');
+    src: url('solomon_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_black-webfont.woff') format('woff'),
+         url('solomon_black-webfont.ttf') format('truetype'),
+         url('solomon_black-webfont.svg#solomon_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_bold_decoregular';
+    src: url('solomon_bold_deco-webfont.eot');
+    src: url('solomon_bold_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_bold_deco-webfont.woff') format('woff'),
+         url('solomon_bold_deco-webfont.ttf') format('truetype'),
+         url('solomon_bold_deco-webfont.svg#solomon_bold_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'solomon_boldregular';
+    src: url('solomon_bold-webfont.eot');
+    src: url('solomon_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_bold-webfont.woff') format('woff'),
+         url('solomon_bold-webfont.ttf') format('truetype'),
+         url('solomon_bold-webfont.svg#solomon_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'solomon_book_decoregular';
+    src: url('solomon_book_deco-webfont.eot');
+    src: url('solomon_book_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_book_deco-webfont.woff') format('woff'),
+         url('solomon_book_deco-webfont.ttf') format('truetype'),
+         url('solomon_book_deco-webfont.svg#solomon_book_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_bookregular';
+    src: url('solomon_book-webfont.eot');
+    src: url('solomon_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_book-webfont.woff') format('woff'),
+         url('solomon_book-webfont.ttf') format('truetype'),
+         url('solomon_book-webfont.svg#solomon_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'solomon_light_decoregular';
+    src: url('solomon_light_deco-webfont.eot');
+    src: url('solomon_light_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_light_deco-webfont.woff') format('woff'),
+         url('solomon_light_deco-webfont.ttf') format('truetype'),
+         url('solomon_light_deco-webfont.svg#solomon_light_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_lightregular';
+    src: url('solomon_light-webfont.eot');
+    src: url('solomon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_light-webfont.woff') format('woff'),
+         url('solomon_light-webfont.ttf') format('truetype'),
+         url('solomon_light-webfont.svg#solomon_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_normal_decoregular';
+    src: url('solomon_normal_deco-webfont.eot');
+    src: url('solomon_normal_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_normal_deco-webfont.woff') format('woff'),
+         url('solomon_normal_deco-webfont.ttf') format('truetype'),
+         url('solomon_normal_deco-webfont.svg#solomon_normal_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'solomon_normalregular';
+    src: url('solomon_normal-webfont.eot');
+    src: url('solomon_normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_normal-webfont.woff') format('woff'),
+         url('solomon_normal-webfont.ttf') format('truetype'),
+         url('solomon_normal-webfont.svg#solomon_normalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_thin_decoregular';
+    src: url('solomon_thin_deco-webfont.eot');
+    src: url('solomon_thin_deco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_thin_deco-webfont.woff') format('woff'),
+         url('solomon_thin_deco-webfont.ttf') format('truetype'),
+         url('solomon_thin_deco-webfont.svg#solomon_thin_decoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'solomon_thinregular';
+    src: url('solomon_thin-webfont.eot');
+    src: url('solomon_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('solomon_thin-webfont.woff') format('woff'),
+         url('solomon_thin-webfont.ttf') format('truetype'),
+         url('solomon_thin-webfont.svg#solomon_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
