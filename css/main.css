@@ -1162,6 +1162,13 @@ h1.title {
     margin-top: -1em;
   }
 }
+@media all and (max-width: 500px) {
+  .event .inner.container {
+    padding: 0.25em;
+    padding-top: 0;
+    margin-top: -0.75em;
+  }
+}
 .event .link-container {
   text-align: center;
 }
