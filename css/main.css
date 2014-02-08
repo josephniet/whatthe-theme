@@ -1071,11 +1071,13 @@ h1.title {
 .event {
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 .event .char {
   width: 250px;
   height: 350px;
   position: absolute;
+  display: none;
 }
 .event .char.char-right {
   top: 10%;
@@ -1304,6 +1306,9 @@ h1.title {
   -webkit-transform: rotate(-1.2deg);
   -moz-transform: rotate(-1.2deg);
   -ms-transform: rotate(-1.2deg);
+}
+.event .featured-content .featured .attached-item .inner {
+  overflow: hidden;
 }
 .event .dropdown:nth-of-type(odd) {
   -webkit-transform: rotate(-0.25deg) translateZ(0);
