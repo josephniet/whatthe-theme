@@ -29,6 +29,7 @@ include "inc/settings.php";
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/main.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/lightbox/css/lightbox.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <!--<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>-->
         <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
@@ -49,40 +50,40 @@ include "inc/settings.php";
     	<img src="<?php echo get_stylesheet_directory_uri() ?>/img/border-image.png" alt='border-image' />
     	<img src="<?php echo $settings->dropdown_background ?>" alt='dropdown' />
     </div>
-    <div class="header-container">
-		<header id="header">
-		 <!--   <nav class="top-nav">
-		    	<a href="#" class="logo"><img src="img/logo.png"/></a>
-		    	<ul>
-		    		<?php
-		    		 //foreach($data->menu as $item) {
-		    		 //	echo "<li><a href='{$item->url}'>{$item->title}</a></li>";
-					// }
-		    		?>
-		    	</ul>
-		    </nav> -->
-		    <?php
-		    $args = array(
+	<header id="header">
+		<?php
+	    $args = array(
 			'container'       => 'nav',
 			'container_class' => 'top-nav'
 			);
-			//wp_nav_menu($args);
-		    $args = array(
-				'container'       => 'nav',
-				'container_class' => 'top-nav-small'
-				);
-			wp_nav_menu($args)			
-		    ?>
+		?>
+		<div class="desktop">
+	   		 <?php wp_nav_menu($args) ?>
 		    <div class="user">
 		    	<a class="logout" href="<?php echo get_bloginfo('wpurl') ?>?logout=true">
 		    		 <img src="<?php echo get_stylesheet_directory_uri() ?>/img/power.png" alt='logout' /> <span>logout</span>
 		    	</a>
-		    </div>
-		 </header>
-	    <div class="top-logo"
-	     data-start="opacity: 1;-webkit-transform: translateY(0px);transform: translateY(0px);-moz-transform: translateY(0px);"
-	    data-top-bottom="opacity: 0;-webkit-transform: translateY(-70px);-moz-transform: translateY(-70px);transform: translateY(-70px);"
-	    ><a href="<?php echo get_bloginfo('url')?>"><img src="<?php echo $settings->logo ?>" alt="what the logo" /></a></div>
-	 </div>
+		    </div>			
+		</div>
+		<div class="mobile menu-trigger">
+			<i class="fa fa-bars"></i><span>Menu</span>		
+		</div>
+	 </header>
+	<div class="mobile-nav-sidebar mobile center-container">
+		<div class="center">
+		    <?php wp_nav_menu($args) ?>    
+		    <div class="user">
+		    	<a class="logout" href="<?php echo get_bloginfo('wpurl') ?>?logout=true">
+		    		 <img src="<?php echo get_stylesheet_directory_uri() ?>/img/power.png" alt='logout' /> <span>logout</span>
+		    	</a>
+	    	</div>
+	    </div>
+    </div>		 
+	<div class="site-fade"></div>
+    <div class="top-logo"
+     data-start="opacity: 1;-webkit-transform: translateY(0px);transform: translateY(0px);-moz-transform: translateY(0px);"
+    data-top-bottom="opacity: 0;-webkit-transform: translateY(-70px);-moz-transform: translateY(-70px);transform: translateY(-70px);"
+    ><a href="<?php echo get_bloginfo('url')?>"><img src="<?php echo $settings->logo ?>" alt="what the logo" /></a></div>
+	
  	<div class="wrapper">
  	
