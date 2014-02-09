@@ -986,6 +986,7 @@ h1.title {
   height: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
   z-index: 5;
   background-color: rgba(211, 197, 160, 0);
   transition: background-color 1s;
@@ -1014,6 +1015,7 @@ h1.title {
   height: 100%;
   display: block;
   top: 0;
+  bottom: 0;
   display: table;
 }
 .mobile-nav-sidebar.active {
