@@ -28,7 +28,7 @@ add_theme_support( 'custom-background', $args );
 		echo "<div style='display:none;'>{$date}</div>";
 		date_default_timezone_set('UTC');
 		$date = new DateTime('@' . $date);
-		$date->setTimezone( new DateTimeZone('UTC') );
+		$date->setTimezone( new DateTimeZone('Europe/London') );
 		//var_dump($date);	
 		$datestring = date_format($date, 'l d F Y');
 		echo "<div class='date'>{$datestring}</div>";
