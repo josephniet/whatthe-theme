@@ -25,6 +25,7 @@ add_theme_support( 'custom-background', $args );
 
  function writeDate($date){
 		if (!$date) return;
+		echo "<div style='display:none;'>{$date}</div>";
 		date_default_timezone_set('UTC');
 		$date = new DateTime('@' . $date);
 		//var_dump($date);	
