@@ -2,7 +2,8 @@
 function get_all_posts($type, $args = null){
 	$items = array();
 	$defaults = array(
-		'post_type' => $type
+		'post_type' => $type,
+		'posts_per_page' => -1
 	);	
 	$args = wp_parse_args($defaults, $args);
 	// The Query
