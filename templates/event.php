@@ -13,6 +13,11 @@
 <!--		<div class="link-container top">
 			<a class="tickets-link" href="<?php echo $item->tickets_link->url?>"><span><?php echo $item->tickets_link->text ?></span></a>
 </div> -->
+		<?php /*TICKETS LINK*/ if (!empty($item->tickets_link->text)){ ?>
+		<div class="link-container">
+			<a class="tickets-link" href="<?php echo $item->tickets_link->url?>"><span><?php echo $item->tickets_link->text ?></span></a>
+		</div>
+		<?php } ?>
 		<section class="content">
 			<?php echo $item->content ?>
 		</section>
